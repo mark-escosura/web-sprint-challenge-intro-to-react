@@ -36,7 +36,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use the endpoint `[GET] https://swapi.dev/api/people` (mocked in [msw](https://github.com/mswjs/msw)) to obtain characters.
+- [x] Use the endpoint `[GET] https://swapi.dev/api/people` (mocked in [msw](https://github.com/mswjs/msw)) to obtain characters.
 - [ ] Set the list of characters into state.
 - [ ] Render your characters to the DOM:
 
@@ -69,16 +69,27 @@ After finishing your required elements, you can push your work further. These go
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes to the main branch.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [x] Submit via Codegrade by committing and pushing any new changes to the main branch.
+- [x] Check Codegrade for automated feedback.
+- [x] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [x] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
-1. Describe component state.
-1. Describe props.
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+- React JS is an open source-JavaScript library that is used for building UI (user interfaces) using components that are reusable that react to data changing overtime. For example, Facebook, Twitter, Instagram and other social media platforms has data changing every sec. React JS makes this possible.
+
+2. Describe component state.
+
+- State of a component is an object that holds information that may changeover the lifetime of the component.
+
+3. Describe props.
+
+- Props stands for 'properties' and is being used for passing data from one component to another. 
+
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+- Side effects are basically anything that affects something outside of the scope of the current function that's being executed. For example, manually updating the DOM Element. We use "useEffect" to fetch data for the current user.
